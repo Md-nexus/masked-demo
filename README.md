@@ -2,7 +2,7 @@
 
 A locked-down demo of **Prospectra**, a B2B lead-generation app I built. This repository holds **only the compiled builds** (see [Releases](../../releases)) and this page. The source code is not published.
 
-Submitted with my application for the **AI Automation, Systems & Software Builder** role. This repository is private and shared only with the reviewer.
+Submitted with my application for the **AI Automation, Systems & Software Builder** role.
 
 > **Quick start:** download from [Releases](../../releases), log in with `demo` / `demo`, pick a stored search, press Search. Expires **28 January 2027**. Needs internet. Each device gets **2 runs per engine**.
 
