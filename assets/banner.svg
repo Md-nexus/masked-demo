@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Masked Demo: a stripped-down demo of a B2B lead-generation app">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#1b2a6b"/>
+      <stop offset="1" stop-color="#6d3bd9"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.4" fill="#ffffff" fill-opacity="0.09"/>
+    </pattern>
+    <clipPath id="card"><rect x="0" y="0" width="1200" height="320" rx="20"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#dots)"/>
+    <circle cx="1090" cy="40" r="210" fill="#38bdf8" fill-opacity="0.10"/>
+    <circle cx="1180" cy="300" r="170" fill="#a78bfa" fill-opacity="0.14"/>
+
+    <!-- stylised lead table -->
+    <g transform="translate(790 62)">
+      <rect width="340" height="196" rx="14" fill="#0b1020" fill-opacity="0.55" stroke="#ffffff" stroke-opacity="0.22"/>
+      <rect x="0" y="0" width="340" height="38" rx="14" fill="#ffffff" fill-opacity="0.10"/>
+      <rect x="18" y="14" width="64" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.55"/>
+      <rect x="130" y="14" width="52" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.35"/>
+      <rect x="232" y="14" width="40" height="9" rx="4.5" fill="#ffffff" fill-opacity="0.35"/>
+
+      <g fill="#ffffff">
+        <circle cx="30" cy="70" r="11" fill="url(#accent)"/>
+        <rect x="52" y="63" width="86" height="8" rx="4" fill-opacity="0.75"/>
+        <rect x="52" y="76" width="56" height="6" rx="3" fill-opacity="0.35"/>
+        <rect x="170" y="66" width="70" height="8" rx="4" fill-opacity="0.45"/>
+        <rect x="270" y="62" width="50" height="18" rx="9" fill="#34d399" fill-opacity="0.9"/>
+
+        <circle cx="30" cy="112" r="11" fill="url(#accent)"/>
+        <rect x="52" y="105" width="74" height="8" rx="4" fill-opacity="0.75"/>
+        <rect x="52" y="118" width="62" height="6" rx="3" fill-opacity="0.35"/>
+        <rect x="170" y="108" width="82" height="8" rx="4" fill-opacity="0.45"/>
+        <rect x="270" y="104" width="50" height="18" rx="9" fill="#34d399" fill-opacity="0.9"/>
+
+        <circle cx="30" cy="154" r="11" fill="url(#accent)"/>
+        <rect x="52" y="147" width="92" height="8" rx="4" fill-opacity="0.75"/>
+        <rect x="52" y="160" width="48" height="6" rx="3" fill-opacity="0.35"/>
+        <rect x="170" y="150" width="64" height="8" rx="4" fill-opacity="0.45"/>
+        <rect x="270" y="146" width="50" height="18" rx="9" fill="#fbbf24" fill-opacity="0.9"/>
+      </g>
+    </g>
+
+    <!-- text -->
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif" fill="#ffffff">
+      <text x="64" y="118" font-size="68" font-weight="800" letter-spacing="-1">Masked Demo</text>
+      <rect x="66" y="136" width="120" height="6" rx="3" fill="url(#accent)"/>
+      <text x="64" y="188" font-size="26" fill-opacity="0.92">A stripped-down demo of a B2B lead-generation app</text>
+      <text x="64" y="224" font-size="18" fill-opacity="0.68">Flutter  ·  Supabase  ·  Edge Functions  ·  Windows &amp; Android</text>
+    </g>
+
+    <!-- chips -->
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">
+      <rect x="64" y="252" width="118" height="34" rx="17" fill="#ffffff" fill-opacity="0.14" stroke="#ffffff" stroke-opacity="0.3"/>
+      <text x="123" y="274" text-anchor="middle" fill="#ffffff">Replay only</text>
+      <rect x="194" y="252" width="150" height="34" rx="17" fill="#ffffff" fill-opacity="0.14" stroke="#ffffff" stroke-opacity="0.3"/>
+      <text x="269" y="274" text-anchor="middle" fill="#ffffff">Server-side limits</text>
+      <rect x="356" y="252" width="132" height="34" rx="17" fill="#ffffff" fill-opacity="0.14" stroke="#ffffff" stroke-opacity="0.3"/>
+      <text x="422" y="274" text-anchor="middle" fill="#ffffff">Kill switch</text>
+    </g>
+  </g>
+</svg>
